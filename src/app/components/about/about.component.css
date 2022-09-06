@@ -6,18 +6,64 @@
     background-repeat: no-repeat;
     height: 80vh;
    
-    /* 
-    background-position: 60%;  */
    
-    /* 
-    */
 }
 
 .card {
     color: #ffffff;
     border: none;
     margin-top: 30%;
-  
-  
+   
 }
+.card-title{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+@media screen  and (max-width: 768px){
+    .card{
+        font-size: 13px;
+    }
+    .card-title{
+        font-size: 20px;
+        
+    }
+    
+}
+@media screen  and (max-width: 576px){
+    .card{
+        font-size: 12px;
+    }
+    .card-title{
+        font-size: 15px;        
+    }
+    
+}
+@media screen  and (max-width: 470px){
+    .card{
+        font-size: 10px;
+    }
+    .card-title{
+        font-size: 12px;        
+    }
+    
+}
+@media screen  and (max-width: 380px){
+    .card{
+        font-size: 9px;
+    }
+    .card-title{
+        font-size: 11px;        
+    }    
+}
+@media screen  and (max-width: 300px){
+    .card{
+        font-size: 7px;
+    }
+    .card-title{
+        font-size: 9px;        
+    }    
+}
+
+
 

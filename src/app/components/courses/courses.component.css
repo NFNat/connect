@@ -1,0 +1,178 @@
+
+.cursos{
+    margin-top: -100px;
+}
+
+
+
+.card {
+    width: 190px;
+    height: 200px;
+    border-radius: 30px;
+    background: #ff7c04;
+    position: relative;
+    padding: 1.8rem;
+    border: 5px solid #ffc422;
+    transition: 0.5s ease-out;
+    overflow: visible;
+   }
+   
+   .card-details {
+    /* color: #ffffff; */
+    height: 100%;
+    gap: .5em;
+    display: grid;
+    place-content: center;
+   }
+   
+   .card-button {
+    transform: translate(-50%, 125%);
+    width: 60%;
+    border-radius: 1rem;
+    border: none;
+    background-color: #ffffff;
+    color: #e23382;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: .5rem 1rem;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    opacity: 0;
+    transition: 0.3s ease-out;
+   }
+   
+  
+   
+   /*Text*/
+   .text-title {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #ffffff;
+   }
+   .texto{
+    color: #ffffff;
+   }
+   
+   /*Hover*/
+   .card:hover {
+    border-color: #ffffff;
+    box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
+   }
+   
+   .card:hover .card-button {
+    transform: translate(-50%, 50%);
+    opacity: 1;
+   }
+
+  
+
+
+
+
+   @media screen  and (max-width:1200px){
+    .cursos{
+        margin-top: -200px;
+    }
+    
+   }
+
+   @media screen  and (max-width:992px){
+    .cursos{
+        margin-top: -300px;
+    }
+
+    .card {
+        width: 160px;
+        height: 170px;
+     
+       }      
+    
+   }
+
+   @media screen  and (max-width:768px){
+    .cursos{
+        margin-top: -400px;
+    }
+
+    .card {
+        width: 140px;
+        height: 150px;     
+       }
+             
+   }
+
+   @media screen  and (max-width:576px){
+    .cursos{
+        margin-top: -430px;
+    }
+
+    .card {
+        width: 140px;
+        height: 140px;     
+       }
+       .text-title {
+        font-size: 1.3em;
+        font-weight: bold;
+       }
+       .text-body {
+        font-size: 1em;
+       }            
+    
+   }
+
+   @media screen  and (max-width:460px){
+    .cursos{
+        margin-top: -450px;
+    }
+
+    .card {
+        width: 135px;
+        height: 120px;     
+       }
+       .text-title {
+        font-size: 1em;
+        font-weight: bold;
+       }
+       .text-body {
+        font-size: 0.8em;
+       }            
+    
+   }
+   @media screen  and (max-width:420px){
+    .cursos{
+        margin-top: -460px;
+    }
+
+    .card {
+        width: 135px;
+        height: 110px;     
+       }
+       .text-title {
+        font-size: 0.9em;
+        font-weight: bold;
+       }
+       .text-body {
+        font-size: 0.7em;
+       }            
+    
+   }
+
+   @media screen  and (max-width:370px){
+    .cursos{
+        margin-top: -490px;
+    }
+
+    .card {
+        width: 140px;
+        height: 115px;     
+       }
+       .text-title {
+        font-size: 0.8em;
+        font-weight: bold;
+       }
+       .text-body {
+        font-size: 0.6em;
+       }            
+    
+   }
