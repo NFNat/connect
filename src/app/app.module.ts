@@ -13,6 +13,7 @@ import { TeamComponent } from './components/team/team.component';
 import { GalleryComponent } from './components/gallery/gallery.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { FormsModule } from '@angular/forms';
 
 
 
@@ -20,7 +21,7 @@ const appRoutes: Routes = [
   { path:'home', component:HomeComponent},
   // { path:'error', component:E404Component },
   { path:'',  redirectTo: 'home', pathMatch:'full' },
-  // { path:'contacto', component:ContactoComponent },
+  { path:'contacto', component:ContactComponent },
 
 ]
 
@@ -41,7 +42,8 @@ const appRoutes: Routes = [
   imports: [
     BrowserModule,
     AppRoutingModule,
-    RouterModule.forRoot(appRoutes)
+    RouterModule.forRoot(appRoutes),
+    FormsModule
     
   ],
   providers: [],
