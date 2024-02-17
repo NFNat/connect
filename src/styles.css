@@ -1,4 +1,93 @@
-body{
-    background-color: #004aad;
-    
+@import 'material-symbols';
+
+:root {
+  --blue-Connect: #0049B1;
+  --orange-Connect: #FF7D05;
+  --pink-Connect: #FA1180;
+  --white-Connect: #f5f5f5;
+  --black-Connect: #141414;
 }
+body{
+    background-color: var(--blue-Connect);
+
+}
+.button__primary{
+    background-color: var(--orange-Connect);
+    color: var(--white-Connect);
+    padding: 0.2rem 2rem;
+    border: none;
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+}
+
+.button__primary:hover{
+  background-color: var(--white-Connect);
+  color: var(--orange-Connect);
+  border: 0.15rem solid var(--orange-Connect);
+  font-weight: 600;
+
+
+}
+.button__secondary{
+    color: var(--pink-Connect);
+    background-color: var(--white-Connect);
+    padding: 0.2rem 2rem;
+    border: none;
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+
+}
+
+.button__secondary:hover{
+  color: var(--white-Connect);
+  font-weight: 600;
+  background-color: var(--pink-Connect);
+  border: 0.15rem solid var(--white-Connect);
+
+}
+.button__tertiary{
+  background-color: var(--pink-Connect);
+  color: var(--white-Connect);
+  padding: 0.2rem 2rem;
+  border: none;
+  border-radius: 2rem;
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  -ms-border-radius: 2rem;
+  -o-border-radius: 2rem;
+
+}
+
+.button__tertiary:hover{
+color: var(--pink-Connect);
+font-weight: 600;
+background-color: var(--white-Connect);
+border: 0.15rem solid var(--pink-Connect);
+}
+
+.button__cuaternary{
+  background-color: var(--blue-Connect);
+  color: var(--white-Connect);
+  padding: 0.2rem 2rem;
+  border: none;
+  border-radius: 2rem;
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  -ms-border-radius: 2rem;
+  -o-border-radius: 2rem;
+
+}
+
+.button__cuaternary:hover{
+color: var(--blue-Connect);
+font-weight: 600;
+background-color: var(--white-Connect);
+border: 0.15rem solid var(--blue-Connect);
+}
+

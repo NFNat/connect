@@ -1,69 +1,82 @@
- 
-.container {
-    /* margin-top: 50px; */
-    background-image: url("https://i.imgur.com/T6V5fDz.jpg");
-    background-size:contain;
-    background-repeat: no-repeat;
-    height: 80vh;
-   
-   
+.container__about{
+  height: 25rem;
+  display: flex;
+  /* width: 100%; */
+
 }
 
-.card {
-    color: #ffffff;
-    border: none;
-    margin-top: 30%;
-   
+.about__images{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
 }
-.card-title{
-    font-size: 30px;
-    font-weight: bold;
+.about__title{
+  color: var(--orange-Connect);
+  font-weight: 600;
+  font-size: 2rem;
 }
-
-@media screen  and (max-width: 768px){
-    .card{
-        font-size: 13px;
-    }
-    .card-title{
-        font-size: 20px;
-        
-    }
-    
+.imgBack img{
+  position: absolute;
+  top: 39rem;
+  left: 4rem;
+  z-index: -1;
+  width: 50rem;
 }
-@media screen  and (max-width: 576px){
-    .card{
-        font-size: 12px;
-    }
-    .card-title{
-        font-size: 15px;        
-    }
-    
+.container__card{
+display: flex;
+width: 100%;
+justify-content: space-evenly;
+height: 20rem;
 }
-@media screen  and (max-width: 470px){
-    .card{
-        font-size: 10px;
-    }
-    .card-title{
-        font-size: 12px;        
-    }
-    
+.card{
+  width: 22rem;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+  border-radius: 2rem;
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  -ms-border-radius: 2rem;
+  -o-border-radius: 2rem;
 }
-@media screen  and (max-width: 380px){
-    .card{
-        font-size: 9px;
-    }
-    .card-title{
-        font-size: 11px;        
-    }    
-}
-@media screen  and (max-width: 300px){
-    .card{
-        font-size: 7px;
-    }
-    .card-title{
-        font-size: 9px;        
-    }    
+.card1{
+  background-color: var(--pink-Connect);
 }
 
+.card1__title{
 
+}
+.card1__content{
 
+}
+.card1__button {
+
+}
+.card2{
+background-color: var(--white-Connect);
+}
+.card2__title{
+
+}
+.card2__content{
+
+}
+.card2__button {
+
+}
+.card3{
+  background-color: var(--orange-Connect);
+
+}
+.card3__title{
+
+}
+.card3__content{
+
+}
+.card3__button {
+
+}

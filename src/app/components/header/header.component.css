@@ -1,0 +1,125 @@
+
+.container__header{
+  height: 47rem;
+  display: flex;
+  /* width: 100%; */
+
+}
+.header__info{
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10rem;
+  margin-bottom: 12rem;
+  justify-content: space-around;
+}
+
+.header__info__title{
+  background-color: var(--pink-Connect);
+
+  padding: 1rem;
+  border-radius: 0 4rem 4rem 0;
+  -webkit-border-radius: 0 4rem 4rem 0;
+  -moz-border-radius: 0 4rem 4rem 0;
+  -ms-border-radius: 0 4rem 4rem 0;
+  -o-border-radius: 0 4rem 4rem 0;
+}
+
+.header__info__title span{
+  color: var(--white-Connect);
+
+font-size: 2rem;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.header__info__text{
+  border-left: 0.5rem solid var(--orange-Connect);
+  height: 4rem;
+  margin-left: 2rem;
+  padding-left:2rem ;
+  width: 21rem;
+}
+.header__info__text span{
+  color: var(--white-Connect);
+
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+}
+
+.header__info__buttons{
+  height: 2rem;
+  width: 20rem;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 9rem;
+
+}
+
+
+
+
+
+
+
+.header__images{
+  width: 60%;
+}
+.imgBack {
+  position: relative;
+  overflow: hidden; /* Esto ocultará cualquier parte de la imagen que se extienda más allá del contenedor */
+   /* width: 50rem;Ancho del contenedor */
+  height: 52rem; /* Altura del contenedor */
+}
+.imgBack img{
+  position: absolute;
+  top: 0rem;
+  right: 1rem;
+  z-index: -1;
+  height: 46rem;
+}
+.img1 img{
+  position: absolute;
+  top: 29rem;
+  right: 34rem;
+  width: 12rem;
+  border-radius: 6rem;
+  border: 0.5rem solid var(--orange-Connect);
+  -webkit-border-radius: 6rem;
+  -moz-border-radius: 6rem;
+  -ms-border-radius: 6rem;
+  -o-border-radius: 6rem;
+}
+
+
+.img2 img{
+  position: absolute;
+  top: 15rem;
+  right: 10rem;
+  width: 22rem;
+  border-radius: 11rem;
+  border: 0.5rem solid var(--orange-Connect);
+  -webkit-border-radius: 11rem;
+  -moz-border-radius: 11rem;
+  -ms-border-radius: 11rem;
+  -o-border-radius: 11rem;
+}
+.img3 img{
+  top: 6rem;
+  right: 29rem;
+  width: 12rem;
+  border-radius: 6rem;
+  border: 0.5rem solid var(--orange-Connect);
+  position: absolute;
+  -webkit-border-radius: 6rem;
+  -moz-border-radius: 6rem;
+  -ms-border-radius: 6rem;
+  -o-border-radius: 6rem;
+}
+
+
+

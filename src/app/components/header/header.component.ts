@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, HostListener } from '@angular/core';
 
 @Component({
   selector: 'app-header',
@@ -6,10 +6,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent implements OnInit {
-
+  imgTransform: string = '';
   constructor() { }
 
   ngOnInit(): void {
+  }
+  @HostListener('window:scroll', ['$event'])
+  onScroll(event: any) {
+    const rotation = window.scrollY / 5;
+    this.imgTransform = `rotate(${rotation}deg)`;
   }
 
 }
